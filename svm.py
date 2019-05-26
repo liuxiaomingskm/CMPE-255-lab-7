@@ -11,7 +11,7 @@ def linear_svm():
     # load data
     bankdata = pd.read_csv("./bill_authentication.csv")
 
-    # see the data
+ 
     bankdata.shape
 
     # see head
@@ -112,5 +112,7 @@ def test():
     gaussian_kernel(X_train, X_test, y_train, y_test)
     sigmoid_kernel(X_train, X_test, y_train, y_test)
     # linear_svm()
-
+def my_test():
+    X_train = 1
+    y_1test = 2
 test()
